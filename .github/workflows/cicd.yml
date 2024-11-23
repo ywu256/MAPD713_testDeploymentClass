@@ -23,5 +23,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: EileenTestDeploymentApp
-          publish-profile: ${{ secrets.MY_AZURE_SECRET }}
+          publish-profile: ${{ secrets.NEW_AZURE_SECRET }}
           package: .
